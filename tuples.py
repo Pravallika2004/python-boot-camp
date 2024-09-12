@@ -1,0 +1,15 @@
+student=(101,'pravs','cse','hyd')
+student=list(student)
+student[2]='ece'
+print(student)
+student.append('sridevi')
+print(student)
+student.remove(101)
+print(student)
+student.insert(0,'M')
+print(student)
+student.pop(3)
+print(student)
+student.clear()
+print(student)
+student
